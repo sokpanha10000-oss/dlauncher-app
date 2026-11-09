@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 300" role="img" aria-label="Original blocky explorer mascot">
+  <g shape-rendering="crispEdges">
+    <ellipse cx="130" cy="282" rx="76" ry="11" fill="#416d4b" opacity=".25"/>
+    <!-- legs -->
+    <path d="M86 194h42v62H86z" fill="#243d54"/><path d="M132 194h42v62h-42z" fill="#314f68"/>
+    <path d="M78 250h52v28H78z" fill="#5a4232"/><path d="M128 250h53v28h-53z" fill="#674a35"/>
+    <path d="M78 250h52v8H78zM128 250h53v8h-53z" fill="#806047"/>
+    <!-- body / jacket -->
+    <path d="M76 112h108v89H76z" fill="#268f91"/><path d="M76 112h108v13H76z" fill="#42b5af"/>
+    <path d="M76 125h22v76H76z" fill="#1c6f79"/><path d="M162 125h22v76h-22z" fill="#1b727b"/>
+    <path d="M120 124h18v77h-18z" fill="#e7dfbb"/><path d="M124 124h10v77h-10z" fill="#f7f1d8"/>
+    <path d="M95 151h12v12H95zM153 151h12v12h-12z" fill="#e6b65c"/>
+    <!-- arms -->
+    <path d="M53 126h23v61H53z" fill="#37a4a0"/><path d="M184 126h23v61h-23z" fill="#216e78"/>
+    <path d="M53 174h23v29H53zM184 174h23v29h-23z" fill="#dfaa80"/>
+    <!-- neck -->
+    <path d="M112 94h38v27h-38z" fill="#d99b70"/>
+    <!-- head -->
+    <path d="M79 34h103v83H79z" fill="#e5ae81"/><path d="M79 34h103v18H79z" fill="#29302f"/>
+    <path d="M67 43h24v30H67z" fill="#222b2b"/><path d="M91 25h74v14H91z" fill="#202827"/><path d="M165 33h22v25h-22z" fill="#202827"/>
+    <path d="M79 52h13v18H79z" fill="#cf8e66"/><path d="M169 52h13v18h-13z" fill="#cf8e66"/>
+    <path d="M97 69h15v15H97zM151 69h15v15h-15z" fill="#f5f0d8"/><path d="M102 73h7v11h-7zM156 73h7v11h-7z" fill="#263d54"/>
+    <path d="M118 91h30v9h-30z" fill="#80503f"/><path d="M125 91h16v5h-16z" fill="#f4d0aa"/>
+    <!-- backpack -->
+    <path d="M184 120h25v68h-25z" fill="#d58c39"/><path d="M184 120h25v12h-25z" fill="#f0b34e"/><path d="M190 143h13v24h-13z" fill="#9d612e"/>
+    <!-- small pixel highlight -->
+    <path d="M79 34h22v6H79zM79 40h8v10h-8z" fill="#424a42"/>
+  </g>
+</svg>
