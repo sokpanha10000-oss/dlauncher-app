@@ -34,11 +34,15 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      # v4 avoids the retired legacy SDK "tools" package used by older
+      # setup-android defaults. Install only platform-tools here; Gradle
+      # resolves the project's compile SDK and build-tools from its config.
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Accept Android SDK licenses
-        run: yes | sdkmanager --licenses >/dev/null 2>&1 || true
+        uses: android-actions/setup-android@v4
+        with:
+          packages: "platform-tools"
+          accept-android-sdk-licenses: true
+          log-accepted-android-sdk-licenses: false
 
       - name: Set up Gradle cache
         uses: gradle/actions/setup-gradle@v4
